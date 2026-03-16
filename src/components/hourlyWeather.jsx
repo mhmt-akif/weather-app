@@ -1,5 +1,6 @@
 import { StyleSheet, View } from "react-native"
 import { Text,Image } from "react-native";
+import { weatherIcons } from "../utils/weatherIcons";
 export const HourlyWeather=()=>{
     return(
       
@@ -7,7 +8,7 @@ export const HourlyWeather=()=>{
             <View style={styles.hourlyWeatherContainer}> {/* hourly weather container */}
                 <Text style={styles.hoursText}>12 AM</Text>
                 <View style={{alignItems:"center",justifyContent:"center",marginTop:12}}>
-                    <Image style={styles.image} source={require("../../assets/WeatherCondition/rüzgar.png")}/>
+                    <Image style={styles.image} source={weatherIcons.Snowy}/>
                 </View>
                 <Text style={styles.temperatureText}>19°C</Text>
             </View>

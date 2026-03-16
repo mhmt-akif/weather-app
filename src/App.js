@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { HourlyWeather } from './components/hourlyWeather';
+import { WeeklyForecast } from './components/weeklyForecast';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <HourlyWeather/>
+       <HourlyWeather/>
+      <WeeklyForecast />
      
+      <StatusBar style="auto" />
     </View>
   );
 }
