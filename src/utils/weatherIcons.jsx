@@ -4,5 +4,5 @@ export const weatherIcons = {
   Rainy: require("../../assets/WeatherCondition/rainy.png"),
   Windy: require("../../assets/WeatherCondition/windy.png"),
   Snowy: require("../../assets/WeatherCondition/snowy.png"),
-  PartlyCloudy : require("../../assets/WeatherCondition/partly-cloudy.png"),
+  PartlyCloudy : require("../../assets/WeatherCondition/partlycloudy.png"),
 };
